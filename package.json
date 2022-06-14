@@ -1,14 +1,14 @@
 {
-  "name": "next-tailwind-motion",
-  "description": "A simple Next.js starter kit with TailwindCSS (JIT) and Framer Motion preconfigured",
-  "author": "Sam Goddard <hello@samgoddard.co.uk> (https://samgoddard.co.uk)",
+  "name": "ayberk-uman-portfolio",
+  "description": "my portfolio site",
+  "author": "Ayberk Uman  <ayberkuman1@gmail.com>",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:samuelgoddard/next-tailwind-motion.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/samuelgoddard/next-tailwind-motion/issues"
+    "url": ""
   },
   "license": "ISC",
   "keywords": [
@@ -34,7 +34,8 @@
     "postcss-preset-env": "^6.7.0",
     "preact": "^10.5.13",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
