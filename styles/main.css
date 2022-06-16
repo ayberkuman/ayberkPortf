@@ -13,7 +13,7 @@
 
 /* Simple defaults */
 body {
-  @apply font-koulen antialiased text-black bg-white;
+  @apply font-koulen antialiased text-dark bg-white;
 }
 
 .TitleAnimeColor > * {

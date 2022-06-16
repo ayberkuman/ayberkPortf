@@ -26,10 +26,10 @@ module.exports = {
         green: "#87A878",
         black: "#000",
         white: "#FFF",
+        dark: "#181818",
         "example-color": {
           light: "#ffb288",
           DEFAULT: "#d18d67",
-          dark: "#ce8860",
         },
       },
     },

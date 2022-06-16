@@ -1,11 +1,13 @@
 export const fade = {
-  initial: { opacity: 0 },
+  initial: { opacity: 0, x: -200 },
   enter: {
     opacity: 1,
+    x: 0,
     transition: { duration: 0.4, ease: [0.83, 0, 0.17, 1] },
   },
   exit: {
     opacity: 0,
+    x: 200,
     transition: { duration: 0.4, ease: [0.83, 0, 0.17, 1] },
   },
 };

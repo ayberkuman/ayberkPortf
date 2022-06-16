@@ -1,9 +1,11 @@
 import FancyLink from "@/components/wrappers/fancyLink";
 import Container from "@/components/wrappers/container";
 import { FixedNav } from "../FixedNav";
-export default function Header({ pages }) {
+import { useRouter } from "next/router";
+export default function Header({ page, setPage }) {
+  const router = useRouter();
   return (
-    <header className="py-4 bg-gray-200 mb-4 md:mb-6 xl:mb-8">
+    <header className="py-4 mb-4 md:mb-6 xl:mb-8">
       <Container>
         <div className="flex items-center">
           <FancyLink
@@ -14,7 +16,7 @@ export default function Header({ pages }) {
           />
 
           <nav className="ml-auto flex space-x-3 w-full text-sm md:text-base md:w-auto">
-            <FixedNav pages={pages} />
+            <FixedNav page={page} setPage={setPage} />
           </nav>
         </div>
       </Container>

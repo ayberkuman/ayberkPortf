@@ -28,7 +28,7 @@ export const TextAnimator = ({
   }, []);
   return (
     <>
-      <div className={`type-wrap font-bold pt-6 ${extraStyle} ${textSize}`}>
+      <div className={`type-wrap font-bold ${extraStyle} ${textSize}`}>
         <span
           // set to all the element inside this color to blue, this is for the spans on the text we set
 
