@@ -18,24 +18,18 @@ export const Contact = () => {
           className="mb-12 md:mb-16 xl:mb-24"
         >
           <Container>
-            <m.div variants={fade}>
+            <m.div className="p-2" variants={fade}>
               <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4">
-                About Page
+                Find <span className="text-yellow">Me</span>
               </h1>
               <div className="content max-w-3xl mb-4">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate.
-                </p>
-
-                <p>
-                  Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                  sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
-                </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=ayberkuman1@gmail.com&tf=1"
+                >
+                  Mail me
+                </a>
               </div>
             </m.div>
           </Container>

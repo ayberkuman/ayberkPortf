@@ -1,3 +1,4 @@
+import Container from "@/components/wrappers/container";
 import Footer from "@/components/wrappers/footer";
 import Header from "@/components/wrappers/header";
 import { fade } from "@/helpers/transitions";
@@ -16,7 +17,9 @@ const Example = () => {
           className="mb-12 md:mb-16 xl:mb-24"
         >
           <m.div variants={fade}>
-            <div>hello</div>
+            <Container>
+              <div>hello</div>
+            </Container>
           </m.div>
         </m.div>
       </LazyMotion>

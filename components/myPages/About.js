@@ -18,17 +18,19 @@ export const About = () => {
           className="mb-12 md:mb-16 xl:mb-24"
         >
           <Container>
-            <m.div variants={fade}>
+            <m.div className="p-2" variants={fade}>
               <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4">
-                About Page
+                About Me
               </h1>
               <div className="content max-w-3xl mb-4">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate.
+                  Frontend developer with 2+ years of experience designing and
+                  building responsive web design and web applications.
+                  Proficient with JS Frameworks, with extensive knowledge of UX
+                  and user psychology. Specialized in ReactJs, NextJs and
+                  responsive design. Experience with animation libraries, modern
+                  web development architecture that emphasizes the use of micro
+                  interactions and cool animations.
                 </p>
 
                 <p>

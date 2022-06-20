@@ -34,7 +34,7 @@ const TechStackAnimator = ({ data }) => {
         onMouseLeave={(e) => showCard(e)}
       >
         <div
-          className={`absolute expandHover w-full bottom-1/4 left-6 transform translate-x-0 p-2 rounded max-w-sm  bg-primary invisible`}
+          className={`absolute expandHover w-full -top-2/4 -left-2 transform translate-x-0 p-2 rounded max-w-sm  bg-primary invisible`}
         >
           <p className="md:text-lg bg-yellow">
             <span className="text-secondaryLight">{element.title}</span>,

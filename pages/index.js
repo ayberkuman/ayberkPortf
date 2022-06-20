@@ -2,18 +2,9 @@ import { Landing } from "@/components/myPages/Landing";
 import { About } from "@/components/myPages/About";
 import { Contact } from "@/components/myPages/Contact";
 import { Work } from "@/components/myPages/Work";
-import TechStack from "@/components/techStack/TechStack";
-import { TextAnimator } from "@/components/TextAnimator";
-import Container from "@/components/wrappers/container";
 import Header from "@/components/wrappers/header";
 import { fade } from "@/helpers/transitions";
-import {
-  LazyMotion,
-  domAnimation,
-  m,
-  motion,
-  AnimatePresence,
-} from "framer-motion";
+import { LazyMotion, domAnimation, m, AnimatePresence } from "framer-motion";
 import { NextSeo } from "next-seo";
 import { useState } from "react";
 import Link from "next/link";
@@ -39,9 +30,9 @@ export default function Home() {
             {page === 3 && <Contact />}
           </AnimatePresence>
         </m.main>
-        {/* <Link href="/example">
+        <Link href="/example">
           <button>Click</button>
-        </Link> */}
+        </Link>
       </LazyMotion>
     </>
   );

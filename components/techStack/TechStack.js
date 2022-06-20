@@ -40,9 +40,9 @@ const TechStack = () => {
   ];
 
   return (
-    <div className="z-30 ">
+    <div className="z-30 relative">
       <h2 className=" text-2xl md:text-4xl lg:text-5xl">
-        My <span className="text-secondaryLight ">Tech</span> Stack
+        My <span className="text-yellow">Tech</span> Stack
       </h2>
       <TechStackAnimator data={techStackData} />
     </div>

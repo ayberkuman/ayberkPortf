@@ -18,7 +18,7 @@ export const Work = () => {
           className="mb-12 md:mb-16 xl:mb-24"
         >
           <Container>
-            <m.div variants={fade}>
+            <m.div className="p-2" variants={fade}>
               <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4">
                 About Page
               </h1>
